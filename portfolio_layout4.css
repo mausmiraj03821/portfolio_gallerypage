@@ -1,0 +1,106 @@
+.h100 {
+    height: 100px;
+}
+
+.logo {
+    width: 195px;
+    height: 55px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+
+/* .logofooter {
+    col
+} */
+
+i {
+    padding: 10px;
+}
+
+.h600 {
+    height: 600px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h400 {
+    height: 400px;
+}
+
+.fcwhite {
+    color: white;
+}
+
+.fcgray {
+    color: gray;
+}
+
+.fcorange {
+    color: orangered;
+}
+
+.bgorange {
+    background-color: orangered;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.backimg {
+    background-image: url('https://preview.colorlib.com/theme/travelo/img/banner/banner.png');
+}
+
+.bcover {
+    background-size: cover;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.bt1 {
+    width: 100px;
+    padding: 10px 0px;
+    border: 2px solid #FF4A52;
+    border-radius: 5px;
+    background-color: #FF4A52;
+}
+
+.fsize45 {
+    font-size: 45px;
+}
+
+.fsize19 {
+    font-size: 19px;
+}
+
+.fsize30 {
+    font-size: 30px;
+}
+
+.bbottom {
+    border-bottom: 2px solid white;
+}
+
+.label1 {
+    width: 210px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.dropdown1 {
+    width: 190px;
+    height: 40px;
+    background: none;
+    border: 2px solid;
+}

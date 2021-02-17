@@ -1,0 +1,151 @@
+.h100 {
+    height: 1000px;
+}
+
+.gallery1 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    transition: 2s;
+}
+
+.gallery1:hover img {
+    transform: scale(1.1);
+}
+
+.gallery2 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerg2 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    transition: 2s;
+}
+
+.inner2g2 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    transition: 2s;
+}
+
+.gallery2:hover .innerg2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.gallery2:hover .inner2g2 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
+
+.m100 {
+    margin-top: 150px;
+}
+
+.gallery3 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerg3 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    top: -300px;
+    transition: 2s;
+}
+
+.gallery3:hover .innerg3 {
+    position: absolute;
+    top: 0px;
+}
+
+.gallery4 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerg4 {
+    height: 200px;
+    width: 200px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    top: -200px;
+    left: 200px;
+    transition: 2s;
+}
+
+.gallery4:hover .innerg4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.gallery5 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerg5 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    top: -300px;
+    transition: 2s;
+}
+
+.inner5g5 {
+    height: 300px;
+    width: 300px;
+    background-color: #ffc0cb5e;
+    position: absolute;
+    bottom: -300px;
+    transition: 2s;
+}
+
+.gallery5:hover .innerg5 {
+    position: absolute;
+    top: -200px;
+}
+
+.gallery5:hover .inner5g5 {
+    position: absolute;
+    bottom: -200px;
+}
